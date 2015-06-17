@@ -74,6 +74,8 @@ void Game_AI::key_press()
 system("stty raw");
 cin>>control;
 system("stty cooked");
+/*char keys[]="was";
+control=keys[rand()%3+0];*/
 }
  
  
